@@ -1,0 +1,22 @@
+.work{
+align-items: center;
+    background-color: rgb(229, 229, 243);
+    padding-top: 5px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.resultsarea{
+    border: 4px;
+    padding-top: 5px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: solid;
+}

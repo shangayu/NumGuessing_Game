@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NumberGuess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="work">
+    <h1>Number Guessing Game</h1>
+    <p>Guess one random number within the 1 to 100. 
+        You can have 10 turns, Which means you can guess 10 times, also we tell your guess is too high or low</p>
+    <div class="form"></div>
+    <label class="label">Input your Guess</label>
+    <input type="number" min="1" max="100" id="input" required class="guessField">
+    <input type="submit" value="submit your guess" class="guessSubmit">
+</div>
+    <div class="resultsarea">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHi"></p>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
